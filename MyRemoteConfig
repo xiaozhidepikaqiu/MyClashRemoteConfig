@@ -31,7 +31,7 @@ ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/C
 ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ProxyMedia.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list
+ruleset=🚀 半自动节点切换,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list
 ;微信/微博
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/weibo.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/wechat.list
