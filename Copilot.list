@@ -1,3 +1,10 @@
 DOMAIN,copilot.microsoft.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bingapis.com
+DOMAIN,r.bing.com
+DOMAIN,th.bing.com
+DOMAIN,www.bing.com
+DOMAIN,sydney.bing.com
+DOMAIN,services.bingapis.com
+DOMAIN,www.bingapis.com
+DOMAIN,aefd.nelreports.net
+#DOMAIN-SUFFIX,bing.com
+#DOMAIN-SUFFIX,bingapis.com
