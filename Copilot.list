@@ -6,5 +6,14 @@ DOMAIN,sydney.bing.com
 DOMAIN,services.bingapis.com
 DOMAIN,www.bingapis.com
 DOMAIN,aefd.nelreports.net
+
 #DOMAIN-SUFFIX,bing.com
 #DOMAIN-SUFFIX,bingapis.com
+
+;移动端copilot
+DOMAIN,ssl.bing.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftapp.net
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,appcenter.ms
