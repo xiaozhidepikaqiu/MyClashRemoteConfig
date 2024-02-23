@@ -4,6 +4,9 @@
 # note: Does not contain YouTube.
 # 注意: 不包含YouTube
 
+#GooglePlayDownlond
+DOMAIN-SUFFIX,xn–ngstr-lra8j.com
+
 # >> Google
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,265.com
