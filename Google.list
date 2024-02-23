@@ -7,17 +7,7 @@
 #GooglePlayDownlond
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
-# >> Google
-DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,265.com
 
-# > Alphabet Websites 
-DOMAIN-SUFFIX,abc.xyz
-DOMAIN-SUFFIX,capitalg.com
-
-# > Android
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,androidify.com
 
 # > Appspot
 DOMAIN-KEYWORD,appspot
