@@ -113,7 +113,7 @@ custom_proxy_group=🇳🇬 尼日利亚节点`select`(尼日利亚|NGR)
 
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点-自动`[]🇨🇳 台湾节点-自动`[]🇸🇬 狮城节点-自动`[]🇯🇵 日本节点-自动
 custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🇭🇰 香港节点-自动`[]🇨🇳 台湾节点-自动
-custom_proxy_group=🎯 全球直连`select`[]DIRECT
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]♻️ 自动选择(所有地区最佳)`[]❄️ 冷门节点选择`[]🔬 精确节点切换
 
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
