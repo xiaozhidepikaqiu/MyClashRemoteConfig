@@ -102,8 +102,8 @@ DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,x.company
 
 # > Google IP-CIDR
-IP-CIDR,173.194.0.0/16,no-resolve
-IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16
+IP-CIDR,74.125.0.0/16
 
 # > Google CDNs
 DOMAIN,clientservices.googleapis.com
