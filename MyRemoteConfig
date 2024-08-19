@@ -72,6 +72,7 @@ custom_proxy_group=🍪标志位🍪`select`[]REJECT
 enable_rule_generator=true
 overwrite_original_rules=true
 skip_failed_links=true
+exclude_remarks=((?=a)b)
 
 [advanced]
 max_allowed_rulesets=0
