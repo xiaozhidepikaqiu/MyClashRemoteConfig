@@ -66,7 +66,7 @@ custom_proxy_group=🇺🇲 美国节点-自动`url-test`(^(?!.*[xX](?:[2-9]|[1-
 
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 拦截`select`[]REJECT`[]DIRECT
-custom_proxy_group=🍪标志位🍪`select`.*
+custom_proxy_group=🍪标志位🍪`select`[]REJECT
 ;设置分组标志位
 
 enable_rule_generator=true
