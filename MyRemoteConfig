@@ -16,6 +16,7 @@ ruleset=😸 GitHub,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@mas
 ruleset=📸 Instagram,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Instagram/Instagram.list,no-resolve
 ruleset=Ⓜ️ 微软服务,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.list,no-resolve
 
+ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/xiaozhidepikaqiu/MyClashRemoteConfig@main/rules_provider/192.168.1.1.list,no-resolve
 ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/xiaozhidepikaqiu/MyClashRemoteConfig@main/rules_provider/shouxinshurufa.list,no-resolve
 ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/xiaozhidepikaqiu/MyClashRemoteConfig@main/rules_provider/infinitetab.list,no-resolve
 ruleset=🎯 全球直连,https://cdn.jsdelivr.net/gh/xiaozhidepikaqiu/MyClashRemoteConfig@main/rules_provider/baimiaoapp.list,no-resolve
