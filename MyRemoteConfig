@@ -2,10 +2,10 @@
 clash_rule_base=https://cdn.jsdelivr.net/gh/xiaozhidepikaqiu/MyClashRemoteConfig@main/GeneralClashConfig.yml
 
 ;设置规则标志位
-ruleset=🤖 OpenAI,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.list
-ruleset=Ⓜ️ Copilot,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot.list
-ruleset=🎮 游戏平台(Steam),https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.list
-ruleset=🎮 游戏平台(Blizzard/Riot/Xbox/Epic/Ubisoft),https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Epic/Epic.list
+ruleset=🤖 OpenAI,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
+ruleset=Ⓜ️ Copilot,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot_No_Resolve.yaml
+ruleset=🎮 游戏平台(Steam),clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam_No_Resolve.yaml
+ruleset=🎮 游戏平台(Blizzard/Riot/Xbox/Epic/Ubisoft),clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Epic/Epic_No_Resolve.yaml
 ruleset=🎮 游戏平台(Blizzard/Riot/Xbox/Epic/Ubisoft),https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/UBI/UBI.list
 ruleset=🎮 游戏平台(Blizzard/Riot/Xbox/Epic/Ubisoft),https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Blizzard/Blizzard.list
 ruleset=🎮 游戏平台(Blizzard/Riot/Xbox/Epic/Ubisoft),https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Riot/Riot.list
