@@ -11,29 +11,14 @@ profile:
   store-fake-ip: true  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 dns:
   enable: true
-  ipv6: false
-  use-system-hosts: false
+  ipv6: true
+  use-system-hosts: true
   listen: 127.0.0.1:8853
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16  # normal/fake-ip/redir-host
-  default-nameserver:
-    - 223.5.5.5
-    - 223.6.6.6
-    - 119.29.29.29
-    - 1.1.1.1
-  nameserver:
-    - https://223.6.6.6/dns-query
-    - https://rubyfish.cn/dns-query
-    - https://dns.pub/dns-query
-  fallback:
-    - https://dns.cloudflare.com/dns-query
-    - https://doh.dns.sb/dns-query
-    - https://1.0.0.1/dns-query
-    - https://dns.rubyfish.cn/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - tls://8.8.4.4:853
   fake-ip-filter:  # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接(用真ip)
     - "*.lan"
+    - "*.local"
     - stun.*.*.*
     - stun.*.*
     - time.windows.com
@@ -98,12 +83,33 @@ dns:
     - "*.msftconnecttest.com"
     - "*.msftncsi.com"
     - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - localhost.work.weixin.qq.com
     - "*.*.*.srv.nintendo.net"
     - "*.*.stun.playstation.net"
     - xbox.*.*.microsoft.com
     - "*.ipv6.microsoft.com"
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
+    - 223.6.6.6
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://rubyfish.cn/dns-query
+    - https://dns.pub/dns-query
+  fallback:
+    - https://doh.dns.sb/dns-query
+    - https://dns.cloudflare.com/dns-query
+    - https://dns.twnic.tw/dns-query
+    - tls://8.8.4.4:853
+    - https://1.0.0.1/dns-query
+    - https://dns.rubyfish.cn/dns-query
+    - https://public.dns.iij.jp/dns-query
   fallback-filter:  #后备域名解析服务器筛选，满足条件的将使用 fallback结果或只使用 fallback解析
     geoip: true  # 是否启用 fallback filter
     geoip-code: CN  # 可选值为国家缩写，默认值为CN  除了 geoip-code 配置的国家 IP, 其他的 IP 结果会被视为污染(geoip-code 配置的国家的结果会直接采用，否则将采用 fallback结果)
