@@ -6,6 +6,7 @@ ruleset=🤖 OpenAI,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_r
 ruleset=Ⓜ️ Copilot,clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot_No_Resolve.yaml
 ruleset=🎮 游戏平台(Steam/Xbox),clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam_No_Resolve.yaml
 ruleset=🎮 游戏平台(Steam/Xbox),clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Xbox/Xbox_No_Resolve.yaml
+ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),clash-classic:https://cdn.jsdelivr.net/gh/xiaozhidepikaqiu/MyClashRemoteConfig@refs/heads/main/rules_provider/hearthstone.yaml
 ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Epic/Epic_No_Resolve.yaml
 ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/UBI/UBI_No_Resolve.yaml
 ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),clash-classic:https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Blizzard/Blizzard_No_Resolve.yaml
