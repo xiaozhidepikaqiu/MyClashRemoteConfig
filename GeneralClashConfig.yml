@@ -1,21 +1,11 @@
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-allow-lan: false
-mode: rule
-log-level: info
-external-controller: 127.0.0.1:9090
-profile:
-  store-selected: true  # 储存 API 对策略组的选择，以供下次启动时使用
-  store-fake-ip: true  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 dns:
   enable: true
+  listen: 127.0.0.1:778
   ipv6: true
-  use-system-hosts: true
-  listen: 127.0.0.1:8853
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16  # normal/fake-ip/redir-host
+
+  
+  enhanced-mode: fake-ip  # normal/fake-ip/redir-host
+  fake-ip-range: 198.18.0.1/16  
   fake-ip-filter:  # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接(用真ip)
     - "*.lan"
     - "*.local"
@@ -91,18 +81,22 @@ dns:
     - "*.ipv6.microsoft.com"
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
-  default-nameserver:
-    - 223.5.5.5
+
+    
+  default-nameserver:  #用于解析dns的dns
     - 119.29.29.29
-    - 1.1.1.1
-    - 8.8.8.8
     - 223.6.6.6
+    - 223.5.5.5
+    - 8.8.8.8
+    - 1.1.1.1
+    
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - https://rubyfish.cn/dns-query
     - https://dns.pub/dns-query
-  fallback:
+    
+  fallback:  #后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
     - https://doh.dns.sb/dns-query
     - https://dns.cloudflare.com/dns-query
     - https://dns.twnic.tw/dns-query
@@ -110,7 +104,7 @@ dns:
     - https://1.0.0.1/dns-query
     - https://dns.rubyfish.cn/dns-query
     - https://public.dns.iij.jp/dns-query
-  fallback-filter:  #后备域名解析服务器筛选，满足条件的将使用 fallback结果或只使用 fallback解析
+  fallback-filter:  #后备域名解析服务器筛选，满足条件的将使用 fallback结果或只使用 fallback解析(白名单)
     geoip: true  # 是否启用 fallback filter
     geoip-code: CN  # 可选值为国家缩写，默认值为CN  除了 geoip-code 配置的国家 IP, 其他的 IP 结果会被视为污染(geoip-code 配置的国家的结果会直接采用，否则将采用 fallback结果)
     ipcidr:  # 书写内容为 IP/掩码  这些网段的结果会被视为污染，nameserver解析出这些结果时将会采用 fallback的解析结果
@@ -127,3 +121,9 @@ dns:
       - +.googleapis.cn
       - +.googleapis.com
       - +.gvt1.com
+
+  proxy-server-nameserver:  #代理节点域名解析服务器，仅用于解析代理节点的域名
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+    
+  direct-nameserver-follow-policy: false
