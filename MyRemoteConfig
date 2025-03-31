@@ -73,4 +73,8 @@ overwrite_original_rules=true
 skip_failed_links=true
 exclude_remarks=(到期|剩余流量|下次重置|时间|官网|产品|平台)
 
+[rename]
+(?i:\bJP[N]?\d*\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日),🇯🇵日本
 
+[emoji]
+(?i:\bTW[N]?\d*\b|Taiwan|新北|彰化|\bCHT\b|台湾|[^-]台|\bHINET\b),🇹🇼台湾
