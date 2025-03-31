@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-ruleset=⚛️֎ OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
+ruleset=֎ OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
 ruleset=🛫 Copilot,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot_No_Resolve.yaml
 ruleset=🕹️ 游戏平台(Steam/Xbox),clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam_No_Resolve.yaml
 ruleset=🕹️ 游戏平台(Steam/Xbox),clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Xbox/Xbox_No_Resolve.yaml
@@ -9,10 +9,10 @@ ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),clash-classic:https://raw.
 ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Blizzard/Blizzard_No_Resolve.yaml
 ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Riot/Riot_No_Resolve.yaml
 ruleset=🔍 Google,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google_No_Resolve.yaml
-ruleset=▶️🔴 YouTube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
+ruleset=🔴 YouTube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube_No_Resolve.yaml
 ;ruleset=😺 GitHub,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub_No_Resolve.yaml
 ruleset=📸 Instagram,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Instagram/Instagram_No_Resolve.yaml
-ruleset=Ⓜ️⊞ 微软服务,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+ruleset=Ⓜ️ 微软服务,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
 
 ;ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/infinitetab.yaml
 ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ByteDance/ByteDance_No_Resolve.yaml
@@ -40,18 +40,18 @@ ruleset=🕳 我来兜底,[]FINAL
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-custom_proxy_group=♻️🔁🔄 自动选择`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9])))`https://www.google-analytics.com/generate_204`600,2,80
+custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9])))`https://www.google-analytics.com/generate_204`600,2,80
 
-custom_proxy_group=🕳 我来兜底`select`[]♻️🔁🔄 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-custom_proxy_group=⚛️֎ OpenAI`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-custom_proxy_group=🛫 Copilot`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-custom_proxy_group=🕹️ 游戏平台(Steam/Xbox)`select`[]♻️🔁🔄 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-custom_proxy_group=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft)`select`[]DIRECT`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-custom_proxy_group=🔍 Google`select`[]♻️🔁🔄 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-custom_proxy_group=▶️🔴 YouTube`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-;custom_proxy_group=😺 GitHub`select`[]♻️🔁🔄 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-custom_proxy_group=Ⓜ️⊞ 微软服务`select`[]DIRECT`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
-custom_proxy_group=📸 Instagram`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️🔁🔄 自动选择`[]🤬 倍率节点
+custom_proxy_group=🕳 我来兜底`select`[]♻️ 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+custom_proxy_group=֎ OpenAI`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+custom_proxy_group=🛫 Copilot`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+custom_proxy_group=🕹️ 游戏平台(Steam/Xbox)`select`[]♻️ 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+custom_proxy_group=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft)`select`[]DIRECT`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+custom_proxy_group=🔍 Google`select`[]♻️ 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+custom_proxy_group=🔴 YouTube`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+;custom_proxy_group=😺 GitHub`select`[]♻️ 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
+custom_proxy_group=📸 Instagram`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
 
 custom_proxy_group=🤬 倍率节点`url-test`(^(.*[xX](?:[2-9]|[1-9][0-9])))`https://www.google-analytics.com/generate_204`600,2,80
 custom_proxy_group=🇭🇰 香港自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|Hongkong|🇭🇰|Hong Kong|HK)).*$)`https://www.google-analytics.com/generate_204`600,2,80
