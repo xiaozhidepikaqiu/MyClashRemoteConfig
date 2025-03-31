@@ -1,5 +1,3 @@
-[custom]
-clash_rule_base=https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/clash_rule_base.yml
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ruleset=⚛️ OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
 ruleset=👨‍✈️ Copilot,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot_No_Resolve.yaml
@@ -42,7 +40,7 @@ ruleset=🕳 我来兜底,[]FINAL
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9])))`https://www.google-analytics.com/generate_204`600,2,80  # 每隔600秒测试一次，测速超时为2s，切换节点的延迟容差为80ms
+custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9])))`https://www.google-analytics.com/generate_204`600,2,80
 
 custom_proxy_group=🕳 我来兜底`select`[]♻️ 自动选择`[]⛓分隔符⛓`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
 custom_proxy_group=⚛️ OpenAI`select`[]🇭🇰 香港自动`[]⛓分隔符⛓`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
@@ -173,15 +171,17 @@ emoji=(Bengal|孟加拉),🇧🇩
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-;udp_flag=true
-;tcp_fast_open_flag=true
-;filter_deprecated_nodes=true
-;clash_use_new_field_name=true
-;enable_rule_generator=true
-;overwrite_original_rules=true
-;skip_failed_links=true
+udp_flag=true
+tcp_fast_open_flag=true
+filter_deprecated_nodes=true
+clash_use_new_field_name=true
+enable_rule_generator=true
+overwrite_original_rules=true
+skip_failed_links=true
 
 exclude_remarks=(到期|剩余流量|下次重置|时间|官网|产品|平台)
+
+clash_rule_base=https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/clash_rule_base.yml
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
