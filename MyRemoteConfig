@@ -1,3 +1,4 @@
+[custom]
 clash_rule_base=https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/clash_rule_base.yml  #(等效dns覆写le)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ruleset=⚛️ OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml
