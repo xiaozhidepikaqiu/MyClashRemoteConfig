@@ -173,13 +173,13 @@ emoji=(Bengal|孟加拉),🇧🇩
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-udp_flag=true
-tcp_fast_open_flag=true
-filter_deprecated_nodes=true
-clash_use_new_field_name=true
-enable_rule_generator=true
-overwrite_original_rules=true
-skip_failed_links=true
+;udp_flag=true
+;tcp_fast_open_flag=true
+;filter_deprecated_nodes=true
+;clash_use_new_field_name=true
+;enable_rule_generator=true
+;overwrite_original_rules=true
+;skip_failed_links=true
 
 exclude_remarks=(到期|剩余流量|下次重置|时间|官网|产品|平台)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
