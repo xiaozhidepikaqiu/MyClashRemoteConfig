@@ -74,7 +74,7 @@ skip_failed_links=true
 exclude_remarks=(到期|剩余流量|下次重置|时间|官网|产品|平台)
 
 [rename]
-rule=(?i:\bJP[N]?\d*\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日),🇯🇵日本
+rename_node=(?i:\bSG[P]?\d*\b|Singapore|新加坡|狮城|獅城|[^-]新),新加坡
 
 [emoji]
-rule=(?i:\bTW[N]?\d*\b|Taiwan|新北|彰化|\bCHT\b|台湾|[^-]台|\bHINET\b),🇹🇼台湾
+emoji=(?i:\bTW[N]?\d*\b|Taiwan|新北|彰化|\bCHT\b|台湾|[^-]台|\bHINET\b),🇹🇼
