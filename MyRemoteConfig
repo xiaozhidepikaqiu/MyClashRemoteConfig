@@ -30,11 +30,11 @@ ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/blackm
 ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN_No_Resolve.yaml
 ruleset=🎯 全球直连,clash-domain:https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaDomain.yaml
 ruleset=🎯 全球直连,clash-ipcidr:https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaCompanyIp.yaml,no-resolve
-ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaDNS/ChinaDNS_No_Resolve.yaml
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaDNS/ChinaDNS_No_Resolve.yaml
 ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Cloud/CloudCN/CloudCN_No_Resolve.yaml
 ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax.yaml
 ruleset=🎯 全球直连,clash-domain:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_Domain.yaml
-ruleset=🎯 全球直连,clash-ipcidr:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_IP.yaml,no-resolve
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax_IP.yaml,no-resolve
 ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
 ruleset=🕳 我来兜底,[]FINAL
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
