@@ -1,44 +1,44 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/LocalAreaNetwork.list,no-resolve
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list,no-resolve
-;ruleset=🛑 广告拦截,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdvertisingLite/AdvertisingLite.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/LocalAreaNetwork.list,no-resolve
+ruleset=🛑 广告拦截,https://gh-proxy.com/raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list,no-resolve
+;ruleset=🛑 广告拦截,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdvertisingLite/AdvertisingLite.list,no-resolve
 
-ruleset=֎ OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list,no-resolve
-ruleset=🛫 Copilot,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list,no-resolve
-ruleset=🕹️ 游戏平台(Steam/Xbox),https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam.list,no-resolve
-ruleset=🕹️ 游戏平台(Steam/Xbox),https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Xbox/Xbox.list,no-resolve
-ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Hearthstone/Hearthstone.list,no-resolve
-ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Epic/Epic.list,no-resolve
-ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/UBI/UBI.list,no-resolve
-ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Blizzard/Blizzard.list,no-resolve
-ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Riot/Riot.list,no-resolve
-ruleset=🔍 Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list,no-resolve
-ruleset=🔴 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list,no-resolve
-ruleset=📸 Instagram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Instagram/Instagram.list,no-resolve
-ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.list,no-resolve
+ruleset=֎ OpenAI,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list,no-resolve
+ruleset=🛫 Copilot,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list,no-resolve
+ruleset=🕹️ 游戏平台(Steam/Xbox),https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam.list,no-resolve
+ruleset=🕹️ 游戏平台(Steam/Xbox),https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Xbox/Xbox.list,no-resolve
+ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Hearthstone/Hearthstone.list,no-resolve
+ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Epic/Epic.list,no-resolve
+ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/UBI/UBI.list,no-resolve
+ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Blizzard/Blizzard.list,no-resolve
+ruleset=🎮 游戏平台(Blizzard/Riot/Epic/Ubisoft),https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Riot/Riot.list,no-resolve
+ruleset=🔍 Google,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list,no-resolve
+ruleset=🔴 YouTube,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list,no-resolve
+ruleset=📸 Instagram,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Instagram/Instagram.list,no-resolve
+ruleset=Ⓜ️ 微软服务,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.list,no-resolve
 
-ruleset=🔍 Google,https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/infinitetab.list,no-resolve
+ruleset=🔍 Google,https://gh-proxy.com/raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/infinitetab.list,no-resolve
 ;↑我的infinity直连加载不了附庸一下谷歌分组
 
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/shouxinshurufa.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/baimiaoapp.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/schoopia.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/shouxinshurufa.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/baimiaoapp.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/rules_provider/schoopia.list,no-resolve
 
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ByteDance/ByteDance.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DouYin/DouYin.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaDNS/ChinaDNS.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Cloud/CloudCN/CloudCN.list,no-resolve
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ByteDance/ByteDance.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/DouYin/DouYin.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaDNS/ChinaDNS.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Cloud/CloudCN/CloudCN.list,no-resolve
+ruleset=🎯 全球直连,https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMax/ChinaMax.list,no-resolve
 ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
 ruleset=🕳 我来兜底,[]FINAL
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9])))`https://www.google-analytics.com/generate_204`600,2,80
+custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9])))`https://gh-proxy.com/www.google-analytics.com/generate_204`600,2,80
 
 custom_proxy_group=🕳 我来兜底`select`[]♻️ 自动选择`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
 custom_proxy_group=֎ OpenAI`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
@@ -50,12 +50,12 @@ custom_proxy_group=🔴 YouTube`select`[]🇭🇰 香港自动`[]🚫分隔符�
 custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
 custom_proxy_group=📸 Instagram`select`[]🇭🇰 香港自动`[]🚫分隔符🚫`[]🇭🇰 香港自动`[]🇨🇳 台湾自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇺🇸 美国自动`[]DIRECT`[]♻️ 自动选择`[]🤬 倍率节点
 
-custom_proxy_group=🤬 倍率节点`url-test`(^(.*[xX](?:[2-9]|[1-9][0-9])))`https://www.google-analytics.com/generate_204`600,2,80
-custom_proxy_group=🇭🇰 香港自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|Hongkong|🇭🇰|Hong Kong|HK)).*$)`https://www.google-analytics.com/generate_204`600,2,80
-custom_proxy_group=🇨🇳 台湾自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|🇹🇼|Taiwan|TW)).*$)`https://www.google-analytics.com/generate_204`600,2,80
-custom_proxy_group=🇯🇵 日本自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:日本|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)).*$)`https://www.google-analytics.com/generate_204`600,2,80
-custom_proxy_group=🇸🇬 新加坡自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮|城|獅|狮城|🇸🇬|Singapore)).*$)`https://www.google-analytics.com/generate_204`600,2,80
-custom_proxy_group=🇺🇸 美国自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:🇺🇸|美|国|國|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`https://www.google-analytics.com/generate_204`600,2,80
+custom_proxy_group=🤬 倍率节点`url-test`(^(.*[xX](?:[2-9]|[1-9][0-9])))`https://gh-proxy.com/www.google-analytics.com/generate_204`600,2,80
+custom_proxy_group=🇭🇰 香港自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|Hongkong|🇭🇰|Hong Kong|HK)).*$)`https://gh-proxy.com/www.google-analytics.com/generate_204`600,2,80
+custom_proxy_group=🇨🇳 台湾自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|🇹🇼|Taiwan|TW)).*$)`https://gh-proxy.com/www.google-analytics.com/generate_204`600,2,80
+custom_proxy_group=🇯🇵 日本自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:日本|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan)).*$)`https://gh-proxy.com/www.google-analytics.com/generate_204`600,2,80
+custom_proxy_group=🇸🇬 新加坡自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮|城|獅|狮城|🇸🇬|Singapore)).*$)`https://gh-proxy.com/www.google-analytics.com/generate_204`600,2,80
+custom_proxy_group=🇺🇸 美国自动`url-test`(^(?!.*[xX](?:[2-9]|[1-9][0-9]))(?=.*(?:🇺🇸|美|国|國|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`https://gh-proxy.com/www.google-analytics.com/generate_204`600,2,80
 
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
@@ -178,7 +178,7 @@ skip_failed_links=true
 
 exclude_remarks=(到期|剩余流量|下次重置|时间|官网|产品|平台)
 
-clash_rule_base=https://raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/clash_rule_base.yml
+clash_rule_base=https://gh-proxy.com/raw.githubusercontent.com/xiaozhidepikaqiu/MyClashRemoteConfig/refs/heads/main/clash_rule_base.yml
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
