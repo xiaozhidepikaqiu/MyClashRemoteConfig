@@ -1,109 +1,115 @@
+mixed-port: 7897
+mode: rule
+log-level: info
+ipv6: false
+
 dns:
   enable: true
-  listen: 127.0.0.1:7788
-  ipv6: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  enhanced-mode: fake-ip  # normal/fake-ip/redir-host
 
   
-  enhanced-mode: fake-ip  # normal/fake-ip/redir-host
   fake-ip-range: 198.18.0.1/16  
   fake-ip-filter:  # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接(用真ip)
-    - "*.lan"
-    - "*.local"
-    - stun.*.*.*
-    - stun.*.*
-    - time.windows.com
-    - time.nist.gov
-    - time.apple.com
-    - time.asia.apple.com
-    - "*.ntp.org.cn"
-    - "*.openwrt.pool.ntp.org"
-    - time1.cloud.tencent.com
-    - time.ustc.edu.cn
-    - pool.ntp.org
-    - ntp.ubuntu.com
-    - ntp.aliyun.com
-    - ntp1.aliyun.com
-    - ntp2.aliyun.com
-    - ntp3.aliyun.com
-    - ntp4.aliyun.com
-    - ntp5.aliyun.com
-    - ntp6.aliyun.com
-    - ntp7.aliyun.com
-    - time1.aliyun.com
-    - time2.aliyun.com
-    - time3.aliyun.com
-    - time4.aliyun.com
-    - time5.aliyun.com
-    - time6.aliyun.com
-    - time7.aliyun.com
-    - "*.time.edu.cn"
-    - time1.apple.com
-    - time2.apple.com
-    - time3.apple.com
-    - time4.apple.com
-    - time5.apple.com
-    - time6.apple.com
-    - time7.apple.com
-    - time1.google.com
-    - time2.google.com
-    - time3.google.com
-    - time4.google.com
-    - music.163.com
-    - "*.music.163.com"
-    - "*.126.net"
-    - musicapi.taihe.com
-    - music.taihe.com
-    - songsearch.kugou.com
-    - trackercdn.kugou.com
-    - "*.kuwo.cn"
-    - api-jooxtt.sanook.com
-    - api.joox.com
-    - joox.com
-    - y.qq.com
-    - "*.y.qq.com"
-    - streamoc.music.tc.qq.com
-    - mobileoc.music.tc.qq.com
-    - isure.stream.qqmusic.qq.com
-    - dl.stream.qqmusic.qq.com
-    - aqqmusic.tc.qq.com
-    - amobile.music.tc.qq.com
-    - "*.xiami.com"
-    - "*.music.migu.cn"
-    - music.migu.cn
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
-    - localhost.ptlogin2.qq.com
-    - localhost.sec.qq.com
-    - localhost.work.weixin.qq.com
-    - "*.*.*.srv.nintendo.net"
-    - "*.*.stun.playstation.net"
-    - xbox.*.*.microsoft.com
-    - "*.ipv6.microsoft.com"
-    - "*.*.xboxlive.com"
-    - speedtest.cros.wr.pvp.net
+     - '*.lan'
+     - +.+localdomain
+     # - '*.lan'
+     # - 'stun.*.*.*'
+     # - 'stun.*.*'
+     # - time.windows.com
+     # - time.nist.gov
+     # - time.apple.com
+     # - time.asia.apple.com
+     # - '*.ntp.org.cn'
+     # - '*.openwrt.pool.ntp.org'
+     # - time1.cloud.tencent.com
+     # - time.ustc.edu.cn
+     # - pool.ntp.org
+     # - ntp.ubuntu.com
+     # - ntp.aliyun.com
+     # - ntp1.aliyun.com
+     # - ntp2.aliyun.com
+     # - ntp3.aliyun.com
+     # - ntp4.aliyun.com
+     # - ntp5.aliyun.com
+     # - ntp6.aliyun.com
+     # - ntp7.aliyun.com
+     # - time1.aliyun.com
+     # - time2.aliyun.com
+     # - time3.aliyun.com
+     # - time4.aliyun.com
+     # - time5.aliyun.com
+     # - time6.aliyun.com
+     # - time7.aliyun.com
+     # - '*.time.edu.cn'
+     # - time1.apple.com
+     # - time2.apple.com
+     # - time3.apple.com
+     # - time4.apple.com
+     # - time5.apple.com
+     # - time6.apple.com
+     # - time7.apple.com
+     # - time1.google.com
+     # - time2.google.com
+     # - time3.google.com
+     # - time4.google.com
+     # - music.163.com
+     # - '*.music.163.com'
+     # - '*.126.net'
+     # - musicapi.taihe.com
+     # - music.taihe.com
+     # - songsearch.kugou.com
+     # - trackercdn.kugou.com
+     # - '*.kuwo.cn'
+     # - api
+     # - jooxtt.sanook.com
+     # - api.joox.com
+     # - joox.com
+     # - y.qq.com
+     # - '*.y.qq.com'
+     # - streamoc.music.tc.qq.com
+     # - mobileoc.music.tc.qq.com
+     # - isure.stream.qqmusic.qq.com
+     # - dl.stream.qqmusic.qq.com
+     # - aqqmusic.tc.qq.com
+     # - amobile.music.tc.qq.com
+     # - '*.xiami.com'
+     # - '*.music.migu.cn'
+     # - music.migu.cn
+     # - '*.msftconnecttest.com'
+     # - '*.msftncsi.com'
+     # - localhost.ptlogin2.qq.com
+     # - '*.*.*.srv.nintendo.net'
+     # - '*.*.stun.playstation.net'
+     # - 'xbox.*.*.microsoft.com'
+     # - '*.ipv6.microsoft.com'
+     # - '*.*.xboxlive.com'
+     # - speedtest.cros.wr.pvp.net
 
     
   default-nameserver:  #用于解析dns的dns
-    - 119.29.29.29
     - 223.6.6.6
     - 223.5.5.5
+    - 119.29.29.29
     - 8.8.8.8
     - 1.1.1.1
     
   nameserver:
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    - https://rubyfish.cn/dns-query
+    - https://doh.pub/dns-query
     - https://dns.pub/dns-query
+    - https://rubyfish.cn/dns-query
+    
     
   fallback:  #后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
-    - https://doh.dns.sb/dns-query
     - https://dns.cloudflare.com/dns-query
-    - https://dns.twnic.tw/dns-query
-    - tls://8.8.4.4:853
     - https://1.0.0.1/dns-query
-    - https://dns.rubyfish.cn/dns-query
+    - https://dns.twnic.tw/dns-query
     - https://public.dns.iij.jp/dns-query
+    - tls://8.8.4.4:853
+
+    
   fallback-filter:  #后备域名解析服务器筛选，满足条件的将使用 fallback结果或只使用 fallback解析(白名单)
     geoip: true  # 是否启用 fallback filter
     geoip-code: CN  # 可选值为国家缩写，默认值为CN  除了 geoip-code 配置的国家 IP, 其他的 IP 结果会被视为污染(geoip-code 配置的国家的结果会直接采用，否则将采用 fallback结果)
@@ -115,6 +121,7 @@ dns:
       - +.google.com
       - +.facebook.com
       - +.twitter.com
+      - +.x.com
       - +.youtube.com
       - +.xn--ngstr-lra8j.com
       - +.google.cn
@@ -123,7 +130,7 @@ dns:
       - +.gvt1.com
 
   proxy-server-nameserver:  #代理节点域名解析服务器，仅用于解析代理节点的域名
-    - 'https://doh.pub/dns-query'
     - 'https://dns.alidns.com/dns-query'
+    - 'https://doh.pub/dns-query'
     
   direct-nameserver-follow-policy: false
