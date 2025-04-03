@@ -1,6 +1,6 @@
 dns:
   enable: true
-  listen: 127.0.0.1:778
+  listen: 127.0.0.1:7788
   ipv6: true
 
   
