@@ -112,6 +112,9 @@ dns:
 
     
   fallback:  #后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
+    - 1.1.1.1  # cf
+    - 8.8.8.8  # google
+    - 101.101.101.101  # 台湾101
     - https://dns.cloudflare.com/dns-query  # cf
     - https://dns.google/dns-query  # google
     - https://dns.twnic.tw/dns-query  # 台湾101
