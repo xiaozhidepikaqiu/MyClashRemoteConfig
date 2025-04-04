@@ -115,9 +115,9 @@ dns:
     - 1.1.1.1  # cf
     - 8.8.8.8  # google
     - 101.101.101.101  # 台湾101
-    - https://dns.cloudflare.com/dns-query  # cf
-    - https://dns.google/dns-query  # google
-    - https://dns.twnic.tw/dns-query  # 台湾101
+    #- https://dns.cloudflare.com/dns-query  # cf
+    #- https://dns.google/dns-query  # google
+    #- https://dns.twnic.tw/dns-query  # 台湾101
     
     
   fallback-filter:  #后备域名解析服务器筛选，满足条件的将使用 fallback结果或只使用 fallback解析(白名单)
