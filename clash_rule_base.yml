@@ -14,6 +14,7 @@ dns:
   fake-ip-filter:  # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接(用真ip)
      - '*.lan'
      - +.+localdomain
+     - weatherapi.market.xiaomi.com  # 小米天气
      # - '*.lan'
      # - 'stun.*.*.*'
      # - 'stun.*.*'
@@ -89,26 +90,32 @@ dns:
 
     
   default-nameserver:  #用于解析dns的dns
-    - 223.6.6.6
-    - 223.5.5.5
-    - 119.29.29.29
-    - 8.8.8.8
-    - 1.1.1.1
+    - 223.5.5.5  # a
+    - 119.29.29.29  # t
+    - 180.76.76.76  # b
+    - 1.1.1.1  # cf
+    - 8.8.8.8  # google
+
     
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-    - https://dns.pub/dns-query
-    - https://rubyfish.cn/dns-query
+    - 114.114.114.114  # 运营商
+    - 223.5.5.5  # a
+    - 119.29.29.29  # t
+    - 180.76.76.76  # b
+    - https://dns.alidns.com/dns-query  # a
+    - https://doh.pub/dns-query  # t
     
+
+  proxy-server-nameserver:  #代理节点域名解析服务器，仅用于解析代理节点的域名
+    - 'https://dns.alidns.com/dns-query'
+    - 'https://doh.pub/dns-query'
+
     
   fallback:  #后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
-    - https://dns.cloudflare.com/dns-query
-    - https://1.0.0.1/dns-query
-    - https://dns.twnic.tw/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - tls://8.8.4.4:853
-
+    - https://dns.cloudflare.com/dns-query  # cf
+    - https://dns.google/dns-query  # google
+    - https://dns.twnic.tw/dns-query  # 台湾101
+    
     
   fallback-filter:  #后备域名解析服务器筛选，满足条件的将使用 fallback结果或只使用 fallback解析(白名单)
     geoip: true  # 是否启用 fallback filter
@@ -128,9 +135,3 @@ dns:
       - +.googleapis.cn
       - +.googleapis.com
       - +.gvt1.com
-
-  proxy-server-nameserver:  #代理节点域名解析服务器，仅用于解析代理节点的域名
-    - 'https://dns.alidns.com/dns-query'
-    - 'https://doh.pub/dns-query'
-    
-  direct-nameserver-follow-policy: false
