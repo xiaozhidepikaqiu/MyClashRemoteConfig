@@ -15,7 +15,6 @@ dns:
     - '*.lan'
     - +.+localdomain
     - weatherapi.market.xiaomi.com  # 小米天气
-    - '*.lan'
     - 'stun.*.*.*'
     - 'stun.*.*'
     - time.windows.com
