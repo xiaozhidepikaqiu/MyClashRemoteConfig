@@ -107,17 +107,14 @@ dns:
     
 
   proxy-server-nameserver:  #代理节点域名解析服务器，仅用于解析代理节点的域名
-    - 'https://dns.alidns.com/dns-query'
-    - 'https://doh.pub/dns-query'
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
 
     
-  fallback:  #后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
-    - 1.1.1.1  # cf
-    - 8.8.8.8  # google
-    - 101.101.101.101  # 台湾101
-    #- https://dns.cloudflare.com/dns-query  # cf
-    #- https://dns.google/dns-query  # google
-    #- https://dns.twnic.tw/dns-query  # 台湾101
+  fallback:  #后备域名解析服务器，一般情况下使用境外加密DNS, 保证结果可信
+    - https://dns.cloudflare.com/dns-query  # cf
+    - https://dns.google/dns-query  # google
+    - https://dns.twnic.tw/dns-query  # 台湾101
     
     
   fallback-filter:  #后备域名解析服务器筛选，满足条件的将使用 fallback结果或只使用 fallback解析(白名单)
