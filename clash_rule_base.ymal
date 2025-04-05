@@ -14,7 +14,7 @@ dns:
   fake-ip-filter:  # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接(用真ip)
     - '*.lan'
     - +.+localdomain
-    - weatherapi.market.xiaomi.com  # 小米天气
+    - weatherapi.market.xiaomi.com
     - 'stun.*.*.*'
     - 'stun.*.*'
     - time.windows.com
