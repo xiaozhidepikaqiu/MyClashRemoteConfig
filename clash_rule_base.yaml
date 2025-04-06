@@ -27,7 +27,7 @@ dns:
     - '*.lan'
     - localhost.ptlogin2.qq.com
     - weatherapi.market.xiaomi.com  # 小米天气
-    - jianguoyun.com
+    - +.+jianguoyun.com
     - +.+localdomain
     - 'stun.*.*.*'
     - 'stun.*.*'
