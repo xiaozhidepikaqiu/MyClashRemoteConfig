@@ -1,18 +1,34 @@
 mixed-port: 7890
+allow-lan: true
+bind-address: "*"
 mode: rule
 log-level: info
-ipv6: false
+ipv6: true
+find-process-mode: strict
+geo-auto-update: true
+geo-update-interval: 24
+profile:
+  store-selected: true
+  store-fake-ip: true
+unified-delay: true
+tcp-concurrent: true
 
 dns:
   enable: true
+  prefer-h3: true
   listen: 0.0.0.0:53
-  ipv6: false
+  ipv6: true
+  respect-rules: true  # 配置后面的nameserver、fallback和nameserver-policy向dns服务器的连接过程是否遵守遵守rules规则
   enhanced-mode: fake-ip  # normal/fake-ip/redir-host
 
   
   fake-ip-range: 198.18.0.1/16  
-  fake-ip-filter:  # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接(用真ip)
+  fake-ip-filter:  # 配置不使用 fake-ip 的域名
     - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - rule-set:fakeip-filter
+    - geosite:fakeip-filter
+    
     - +.+localdomain
     - weatherapi.market.xiaomi.com  # 小米天气
     - 'stun.*.*.*'
@@ -86,13 +102,16 @@ dns:
     - '*.ipv6.microsoft.com'
     - '*.*.xboxlive.com'
     - speedtest.cros.wr.pvp.net
+
     
   default-nameserver:  #用于解析dns的dns
+    - 114.114.114.114 # 运营商
     - 223.5.5.5  # a
     - 119.29.29.29  # t
     - 180.76.76.76  # b
-    - 1.1.1.1  # cf
     - 8.8.8.8  # google
+    - 1.1.1.1  # cf
+    - system
 
     
   nameserver:
@@ -100,36 +119,40 @@ dns:
     - 223.5.5.5  # a
     - 119.29.29.29  # t
     - 180.76.76.76  # b
+    - 8.8.8.8  # google
+    - 1.1.1.1  # cf
     - https://dns.alidns.com/dns-query  # a
     - https://doh.pub/dns-query  # t
     
 
   proxy-server-nameserver:  #代理节点域名解析服务器，仅用于解析代理节点的域名
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query  # a
+    - https://doh.pub/dns-query  # t
+    - https://dns.google/dns-query  # google
+    - https://dns.cloudflare.com/dns-query  # cf
+    - https://dns.twnic.tw/dns-query  # 台湾101
 
     
-  fallback:  #后备域名解析服务器，一般情况下使用境外加密DNS, 保证结果可信
-    - https://dns.cloudflare.com/dns-query  # cf
-    - https://dns.google/dns-query  # google
-    - https://dns.twnic.tw/dns-query  # 台湾101
-    
-    
-  fallback-filter:  #后备域名解析服务器筛选，满足条件的将使用 fallback结果或只使用 fallback解析(白名单)
-    geoip: true  # 是否启用 fallback filter
-    geoip-code: CN  # 可选值为国家缩写，默认值为CN  除了 geoip-code 配置的国家 IP, 其他的 IP 结果会被视为污染(geoip-code 配置的国家的结果会直接采用，否则将采用 fallback结果)
-    ipcidr:  # 书写内容为 IP/掩码  这些网段的结果会被视为污染，nameserver解析出这些结果时将会采用 fallback的解析结果
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-      - 127.0.0.1/32
-    domain:  # 这些域名被视为已污染，匹配到这些域名，会直接使用 fallback解析，不去使用 nameserver
-      - +.google.com
-      - +.facebook.com
-      - +.twitter.com
-      - +.x.com
-      - +.youtube.com
-      - +.xn--ngstr-lra8j.com
-      - +.google.cn
-      - +.googleapis.cn
-      - +.googleapis.com
-      - +.gvt1.com
+  sniffer:  # 域名嗅探  域名嗅探的作用是在网络流量中识别出实际访问的域名，即便某些情况下初始的流量信息中可能只有 IP 地址。通过嗅探到域名，Clash 就能依据域名进行更精准的规则匹配和路由决策。
+    enable: true
+    sniff:
+      HTTP:
+        ports: [80, 8080-8880]
+        override-destination: true
+      TLS:
+        ports: [443, 8443]
+      QUIC:
+        ports: [443, 8443]
+    skip-domain:
+      - "Mijia Cloud"
+
+
+  tun:  # Tunnel配置
+    enable: true
+    stack: system
+    auto-route: true
+    auto-detect-interface: true
+    dns-hijack:
+    - any:53
+    - tcp://any:53
+    mtu: 9000
