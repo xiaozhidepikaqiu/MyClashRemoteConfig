@@ -108,6 +108,7 @@ dns:
     - 180.76.76.76  # b
     - 8.8.8.8  # google
     - 1.1.1.1  # cf
+    - https://dns.google/dns-query  # google
     - system
 
     
