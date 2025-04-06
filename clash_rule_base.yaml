@@ -26,8 +26,9 @@ dns:
   fake-ip-filter:  # 配置不使用 fake-ip 的域名
     - '*.lan'
     - localhost.ptlogin2.qq.com
-    - +.+localdomain
     - weatherapi.market.xiaomi.com  # 小米天气
+    - jianguoyun.com
+    - +.+localdomain
     - 'stun.*.*.*'
     - 'stun.*.*'
     - time.windows.com
