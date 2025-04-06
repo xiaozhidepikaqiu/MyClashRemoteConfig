@@ -26,9 +26,6 @@ dns:
   fake-ip-filter:  # 配置不使用 fake-ip 的域名
     - '*.lan'
     - localhost.ptlogin2.qq.com
-    #- rule-set:fakeip-filter
-    - geosite:fakeip-filter
-    
     - +.+localdomain
     - weatherapi.market.xiaomi.com  # 小米天气
     - 'stun.*.*.*'
@@ -95,7 +92,6 @@ dns:
     - music.migu.cn
     - '*.msftconnecttest.com'
     - '*.msftncsi.com'
-    - localhost.ptlogin2.qq.com
     - '*.*.*.srv.nintendo.net'
     - '*.*.stun.playstation.net'
     - 'xbox.*.*.microsoft.com'
