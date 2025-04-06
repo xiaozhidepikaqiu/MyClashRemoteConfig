@@ -24,19 +24,34 @@ dns:
   
   fake-ip-range: 198.18.0.1/16  
   fake-ip-filter:  # 配置不使用 fake-ip 的域名
-    - '*.lan'
+    - ".xiami.com"
+    - "+.+localdomain"
+    - "xbox.*.*.microsoft.com"
+    - "*.*.xboxlive.com"
+    - "stun.*.*.*"
+    - "stun.*.*"
+    - "*.*.*.srv.nintendo.net"
+    - "*.*.stun.playstation.net"
+    
+    - "*.lan"
+    #- "*.jianguoyun.com"
+    - "*.ntp.org.cn"
+    - "*.openwrt.pool.ntp.org"
+    - "*.time.edu.cn"
+    - "*.music.163.com"
+    - "*.126.net"
+    - "*.kuwo.cn"
+    - "*.music.migu.cn"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - "*.ipv6.microsoft.com"
+    
     - localhost.ptlogin2.qq.com
-    - weatherapi.market.xiaomi.com  # 小米天气
-    - '*.jianguoyun.com'
-    - +.+localdomain
-    - 'stun.*.*.*'
-    - 'stun.*.*'
+    #- weatherapi.market.xiaomi.com
     - time.windows.com
     - time.nist.gov
     - time.apple.com
     - time.asia.apple.com
-    - '*.ntp.org.cn'
-    - '*.openwrt.pool.ntp.org'
     - time1.cloud.tencent.com
     - time.ustc.edu.cn
     - pool.ntp.org
@@ -56,7 +71,6 @@ dns:
     - time5.aliyun.com
     - time6.aliyun.com
     - time7.aliyun.com
-    - '*.time.edu.cn'
     - time1.apple.com
     - time2.apple.com
     - time3.apple.com
@@ -69,37 +83,23 @@ dns:
     - time3.google.com
     - time4.google.com
     - music.163.com
-    - '*.music.163.com'
-    - '*.126.net'
     - musicapi.taihe.com
     - music.taihe.com
     - songsearch.kugou.com
     - trackercdn.kugou.com
-    - '*.kuwo.cn'
-    - api
     - jooxtt.sanook.com
     - api.joox.com
     - joox.com
     - y.qq.com
-    - '*.y.qq.com'
     - streamoc.music.tc.qq.com
     - mobileoc.music.tc.qq.com
     - isure.stream.qqmusic.qq.com
     - dl.stream.qqmusic.qq.com
     - aqqmusic.tc.qq.com
     - amobile.music.tc.qq.com
-    - '*.xiami.com'
-    - '*.music.migu.cn'
     - music.migu.cn
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - '*.*.*.srv.nintendo.net'
-    - '*.*.stun.playstation.net'
-    - 'xbox.*.*.microsoft.com'
-    - '*.ipv6.microsoft.com'
-    - '*.*.xboxlive.com'
     - speedtest.cros.wr.pvp.net
-
+    
     
   default-nameserver:  #用于解析dns的dns
     - 114.114.114.114 # 运营商
