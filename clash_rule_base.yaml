@@ -24,8 +24,8 @@ dns:
   
   fake-ip-range: 198.18.0.1/16  
   fake-ip-filter:  # 配置不使用 fake-ip 的域名
-    - ".xiami.com"
-    - "+.+localdomain"
+    - '.xiami.com'
+    - '+.+localdomain'
     - "xbox.*.*.microsoft.com"
     - "*.*.xboxlive.com"
     - "stun.*.*.*"
