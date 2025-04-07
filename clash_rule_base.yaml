@@ -29,12 +29,12 @@ dns:
     #- "stun.*.*.*"
     #- "stun.*.*"
 
-    - "*.*.jianguoyun.com"  # 坚果云
     - "*.*.xboxlive.com"
     - "*.*.stun.playstation.net"
     - "*.*.*.srv.nintendo.net"
 
-    - "*.xiami.com"
+    - "*.jianguoyun.com"  # 坚果云
+    - "*.xiaomi.com"
     - "*.lan"
     - "*.ntp.org.cn"
     - "*.openwrt.pool.ntp.org"
