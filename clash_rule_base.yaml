@@ -28,12 +28,12 @@ dns:
     #- "xbox.*.*.microsoft.com"
     #- "stun.*.*.*"
     #- "stun.*.*"
-    
-    - "*.*.xboxlive.com"
-    - "*.*.*.srv.nintendo.net"
-    - "*.*.stun.playstation.net"
 
-    - "*.jianguoyun.com"  # 坚果云
+    - "*.*.jianguoyun.com"  # 坚果云
+    - "*.*.xboxlive.com"
+    - "*.*.stun.playstation.net"
+    - "*.*.*.srv.nintendo.net"
+
     - "*.xiami.com"
     - "*.lan"
     - "*.ntp.org.cn"
