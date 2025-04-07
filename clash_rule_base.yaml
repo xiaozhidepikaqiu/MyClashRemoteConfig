@@ -24,19 +24,18 @@ dns:
   
   fake-ip-range: 198.18.0.1/16  
   fake-ip-filter:  # 配置不使用 fake-ip 的域名
-    - "+xiami.com"
-    - ".xiami.com"
-    - "*.xiami.com"
-    - "+.+localdomain"
-    - "xbox.*.*.microsoft.com"
+    #- "+.+localdomain"
+    #- "xbox.*.*.microsoft.com"
+    #- "stun.*.*.*"
+    #- "stun.*.*"
+    
     - "*.*.xboxlive.com"
-    - "stun.*.*.*"
-    - "stun.*.*"
     - "*.*.*.srv.nintendo.net"
     - "*.*.stun.playstation.net"
-    
+
+    - "*.jianguoyun.com"  # 坚果云
+    - "*.xiami.com"
     - "*.lan"
-    #- "*.jianguoyun.com"
     - "*.ntp.org.cn"
     - "*.openwrt.pool.ntp.org"
     - "*.time.edu.cn"
@@ -49,7 +48,7 @@ dns:
     - "*.ipv6.microsoft.com"
     
     - localhost.ptlogin2.qq.com
-    #- weatherapi.market.xiaomi.com
+    - weatherapi.market.xiaomi.com  # 小米天气
     - time.windows.com
     - time.nist.gov
     - time.apple.com
