@@ -46,7 +46,8 @@ dns:
     - "*.msftconnecttest.com"
     - "*.msftncsi.com"
     - "*.ipv6.microsoft.com"
-    
+
+    - dav.jianguoyun.com  # 坚果云
     - localhost.ptlogin2.qq.com
     - weatherapi.market.xiaomi.com  # 小米天气
     - time.windows.com
