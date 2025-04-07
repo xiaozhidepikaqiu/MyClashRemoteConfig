@@ -48,8 +48,8 @@ dns:
     - "*.ipv6.microsoft.com"
 
     - dav.jianguoyun.com  # 坚果云
-    - localhost.ptlogin2.qq.com
     - weatherapi.market.xiaomi.com  # 小米天气
+    - localhost.ptlogin2.qq.com
     - time.windows.com
     - time.nist.gov
     - time.apple.com
